@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tiktokpixels.TC_01_VerifyCanAddANewPixel">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC_VerifyCanAddANewPixel"/>
+        </methods>
+      </class> <!-- com.tiktokpixels.TC_01_VerifyCanAddANewPixel -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+</suite> <!-- Failed suite [Suite] -->
